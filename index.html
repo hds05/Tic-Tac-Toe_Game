@@ -13,7 +13,7 @@
     <header class="text-4xl text-center p-3 bg-gray-300 shadow-2xl shadow-gray-800">
         Tic-Tac-Toe
     </header>
-    <div class="h-[80vh] flex justify-center items-center">
+    <div id="board" class="h-[80vh] flex justify-center items-center">
         <div id="box" class="p-3 shadow-[0px_0px_10px_gray] rounded-4xl">
             <div class="cell flex justify-center items-center text-6xl"></div>
             <div class="cell flex justify-center items-center text-6xl"></div>
@@ -24,6 +24,10 @@
             <div class="cell flex justify-center items-center text-6xl"></div>
             <div class="cell flex justify-center items-center text-6xl"></div>
             <div class="cell flex justify-center items-center text-6xl"></div>
+        </div>
+        <div id="restart" class="restartDisplay gameRestart">
+            <h1 class="statement"></h1>
+            <button class="bg-black p-4 rounded-4xl cursor-pointer restartBtn">Restart</button>
         </div>
     </div>
 
